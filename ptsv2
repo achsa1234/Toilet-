@@ -12,6 +12,6 @@ headers = {'content-type': 'application/json'}
  
 r = requests.post(api_url, auth=('achsa123','achsabenjamin'), data=payload, headers=headers)
 
-get_uri='https://ptsv2.com/t/achsa/post'
+get_uri='https://ptsv2.com/t/achsa/d/latest/json'
 g = requests.get(get_uri)
 print(g.json())
