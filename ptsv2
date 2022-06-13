@@ -1,6 +1,6 @@
 import requests, random
 
-api_url = 'https://ptsv2.com/t/userId/post'
+api_url = 'https://ptsv2.com/t/achsa/post'
 usernumber = random.randint(0,150)
 payload = {"userId": usernumber,
 "username":'achsa123',
